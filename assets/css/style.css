@@ -104,6 +104,7 @@ header nav ul li a {
 
 /* About Me styles */
 .about-me {
+    flex-wrap: wrap;
     margin: 0 auto 20px auto;
 }
 
@@ -136,3 +137,48 @@ header nav ul li a {
 }
 
 /* Projects styles */
+.projects h2 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.project a {
+    margin: 10px;
+}
+
+.project img {
+    opacity: 0.6;
+    width: 300px;
+    height: 200px;
+}
+
+.project img:hover {
+    opacity: 0.9;
+    width: 310px;
+    height: 210px;
+}
+
+.project-words {
+    width: 65%;
+    margin: 0 20px; 
+}
+
+.project-words h3 {
+    color: var(--primary-color);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.project-words {
+    line-height: 1.5;
+}
