@@ -1,6 +1,105 @@
-a{
-    display: inline-block;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-object{
-    pointer-events: none;
+
+:root {
+    --primary-color: rgb(0, 186, 243);
+    --secondary-color: #fff;
+    --tertiary-color: rgb(24, 24, 24);
 }
+
+body {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styles*/
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+/* hero styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 40px;
+    align-items: center;
+}
+
+.hero h2 {
+    font-weight: normal;
+}
+
+.hero h3 {
+    color: var(--primary-color);
+    font-size: 36px;
+    padding: 0 0 10px 0;
+}
+
+.hero-cta {
+    width: 80%;
+    line-height: 1.8;
+}
+
+.hero-cta ul {
+    display: flex;
+    list-style: none;
+}
+
+.hero-cta ul li a {
+    color: var(--secondary-color);
+    font-size: 14px;
+    border: 2px solid  white;
+    padding: 3px 8px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 20px;
+}
+
+.social {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.social div a img{
+    width: 23px;
+    height: 23px;
+    margin: 5px 25px;
+}
+
+/* About Me styles */
