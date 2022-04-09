@@ -111,10 +111,19 @@ footer {
     align-items: center;
 }
 
-.social div a img{
+.social div a img {
     width: 23px;
     height: 23px;
     margin: 5px 25px;
+}
+
+.social div a :hover {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.social .github a :hover {
+    border-radius: 20px;
 }
 
 /* About Me styles */
