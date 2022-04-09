@@ -94,6 +94,11 @@ footer {
     border-radius: 20px;
 }
 
+.hero-cta ul li :hover {
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+}
+
 .social {
     width: 20%;
     display: flex;
